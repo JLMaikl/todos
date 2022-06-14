@@ -1,0 +1,52 @@
+.todosForm {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.title {
+    align-items: center;
+    color: #063251;
+    margin-bottom: 2rem;
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+.formControl {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    padding: 0.25rem 0.25rem 0.25rem 1rem;
+    background: #f1f5f8;
+    border-top-left-radius: 0.25rem;    
+    border-bottom-left-radius: 0.25rem;    
+    border-color: transparent;
+    font-size: 1rem;
+    flex: 1 0 auto;
+    color: #617d98;
+    font-size: .85rem;
+    transition: all .3s linear;
+}
+
+.submitBtn {
+    background: #a5d5f8;
+    border-color: transparent;
+    flex: 0 0 5rem;
+    display: grid;
+    align-items: center;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.submitBtn:hover {
+  background: #49a6e9;
+  color: #fff;
+}
+
+
+

@@ -27,9 +27,7 @@ const Todo = () => {
       item,
       isChecking: false,
       id: new Date().getTime(),      
-    };
-
-    console.log(newItem)
+    };    
 
     if (item.length) {
       setList([...list, newItem]);
